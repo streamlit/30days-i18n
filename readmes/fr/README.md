@@ -1,6 +1,6 @@
 # 30 Days of Streamlit en français! 🎈
 
-<img src='3AF34648-C61D-47CE-9E56-C496C5A7C240.jpeg' hauteur=250>
+<img src='../../3AF34648-C61D-47CE-9E56-C496C5A7C240.jpeg' hauteur=250>
 
 Bienvenue sur la version française de `#30DaysOfStreamlit` traduit de [l'anglais](https://30days.streamlitapp.com/).
 

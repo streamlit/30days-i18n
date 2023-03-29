@@ -1,6 +1,6 @@
 # 30 天学 Streamlit 🎈
 
-<img src='3AF34648-C61D-47CE-9E56-C496C5A7C240.jpeg' height=250>
+<img src='../../3AF34648-C61D-47CE-9E56-C496C5A7C240.jpeg' height=250>
 
 这是一个 `#30天学Streamlit` 的官方仓库 — 这是一个 30 天的社会挑战，在这里你将学习、搭建和部署 [Streamlit](https://streamlit.io) 应用。
 

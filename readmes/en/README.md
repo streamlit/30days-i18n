@@ -1,6 +1,6 @@
 # 30 Days Of Streamlit 🎈
 
-<img src='3AF34648-C61D-47CE-9E56-C496C5A7C240.jpeg' height=250>
+<img src='../../3AF34648-C61D-47CE-9E56-C496C5A7C240.jpeg' height=250>
 
 This is the official repo of `#30DaysOfStreamlit` — a 30-day social challenge for you to learn, build and deploy [Streamlit](https://streamlit.io) apps.
 

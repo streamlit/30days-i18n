@@ -1,6 +1,6 @@
 # Streamlit w 30 dni po polsku 🎈
 
-<img src='3AF34648-C61D-47CE-9E56-C496C5A7C240.jpeg' height=250>
+<img src='../../3AF34648-C61D-47CE-9E56-C496C5A7C240.jpeg' height=250>
 
 Witaj w polskiej wersji repozytorium `#30DaysOfStreamlit` — 30-to dniowym wyzwaniu, podczas którego nauczysz się budować i wdrażać aplikacje z użyciem biblioteki [Streamlit](https://streamlit.io)!
 

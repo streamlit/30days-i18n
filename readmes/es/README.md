@@ -1,6 +1,6 @@
 # 30 Días De Streamlit en español! 🎈
 
-<img src='3AF34648-C61D-47CE-9E56-C496C5A7C240.jpeg' height=250>
+<img src='../../3AF34648-C61D-47CE-9E56-C496C5A7C240.jpeg' height=250>
 
 Este es el repositorio oficial de `#30DaysOfStreamlit` - una competencia de 30 días para que aprendas, desarrolles y despliegues tus aplicaciones con [Streamlit](https://streamlit.io).
 
