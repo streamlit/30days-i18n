@@ -1,0 +1,515 @@
+#: streamlit_app.py:41
+msgid "# 30 Days of Streamlit"
+msgstr "# 30 天学 Streamlit"
+
+#: streamlit_app.py:43
+msgid "Day"
+msgstr ""
+
+#: streamlit_app.py:54
+msgid "Start the Challenge 👇"
+msgstr "开始挑战 👇"
+
+#: streamlit_app.py:57
+msgid "About the #30DaysOfStreamlit"
+msgstr "关于 #30天学Streamlit"
+
+#: streamlit_app.py:58
+msgid ""
+"\n"
+"    The **#30DaysOfStreamlit** is a coding challenge designed to help you"
+" get started in building Streamlit apps.\n"
+"    \n"
+"    Particularly, you'll be able to:\n"
+"    - Set up a coding environment for building Streamlit apps\n"
+"    - Build your first Streamlit app\n"
+"    - Learn about all the awesome input/output widgets to use for your "
+"Streamlit app\n"
+"    "
+msgstr ""
+"\n"
+"    **#30天学Streamlit** 是一个旨在帮助你学习构建 Streamlit 应用的编程挑战。\n"
+"    \n"
+"    你将学会：\n"
+"    - 如何搭建一个编程环境用于构建 Streamlit 应用\n"
+"    - 构建你的第一个 Streamlit 应用\n"
+"    - 学习所有好玩的、能用在 Streamlit 应用里的输入输出组件\n"
+"    "
+
+#: streamlit_app.py:70
+msgid "About"
+msgstr "关于 Streamlit"
+
+#: streamlit_app.py:71
+msgid ""
+"[Streamlit](https://streamlit.io) is a Python library that allows the "
+"creation of interactive, data-driven web applications in Python."
+msgstr ""
+"[Streamlit](https://streamlit.io) 是一个 Python 库，能够用于使用 Python "
+"创建可交互的、数据驱动的网页应用"
+
+#: streamlit_app.py:75
+msgid "Resources"
+msgstr "相关资源"
+
+#: streamlit_app.py:76
+msgid ""
+"\n"
+"- [Streamlit Documentation](https://docs.streamlit.io/)\n"
+"- [Cheat sheet](https://docs.streamlit.io/library/cheatsheet)\n"
+"- [Book](https://www.amazon.com/dp/180056550X) (Getting Started with "
+"Streamlit for Data Science)\n"
+"- [Blog](https://blog.streamlit.io/how-to-master-streamlit-for-data-"
+"science/) (How to master Streamlit for data science)\n"
+msgstr ""
+"\n"
+"- [Streamlit 文档](https://docs.streamlit.io/)\n"
+"- [一图流](https://docs.streamlit.io/library/cheatsheet)\n"
+"- [书籍](https://www.amazon.com/dp/180056550X) (Getting Started with "
+"Streamlit for Data Science)\n"
+"- [博客](https://blog.streamlit.io/how-to-master-streamlit-for-data-"
+"science/) (How to master Streamlit for data science)\n"
+
+#: streamlit_app.py:85
+msgid "Deploy"
+msgstr "如何部署"
+
+#: streamlit_app.py:86
+msgid ""
+"You can quickly deploy Streamlit apps using [Streamlit Community "
+"Cloud](https://streamlit.io/cloud) in just a few clicks."
+msgstr ""
+"你可以使用 [Streamlit Community Cloud](https://streamlit.io/cloud)，点点鼠标即可完成 "
+"Streamlit 应用的部署"
+
+#: streamlit_app.py:99
+msgid "### Figures"
+msgstr "### 附图"
+
+#: venv/lib/python3.10/site-packages/altair/sphinxext/altairplot.py:296
+#, python-format
+msgid "[ graph: %s ]"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/altair/sphinxext/altairplot.py:298
+msgid "[ graph ]"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/_termui_impl.py:496
+msgid "{editor}: Editing failed"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/_termui_impl.py:500
+msgid "{editor}: Editing failed: {e}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1097
+msgid "Aborted!"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1282
+#: venv/lib/python3.10/site-packages/click/decorators.py:495
+msgid "Show this message and exit."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1313
+#: venv/lib/python3.10/site-packages/click/core.py:1339
+msgid "(Deprecated) {text}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1357
+msgid "Options"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1385
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1398
+msgid "DeprecationWarning: The command {name!r} is deprecated."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1605
+msgid "Commands"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1637
+msgid "Missing command."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:1715
+msgid "No such command {name!r}."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2271
+msgid "Value must be an iterable."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2293
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2734
+msgid "env var: {var}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2764
+msgid "(dynamic)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2777
+msgid "default: {default}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/core.py:2790
+msgid "required"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/decorators.py:400
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/decorators.py:464
+msgid "Show the version and exit."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:43
+#: venv/lib/python3.10/site-packages/click/exceptions.py:79
+msgid "Error: {message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:71
+msgid "Try '{command} {option}' for help."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:120
+msgid "Invalid value: {message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:122
+msgid "Invalid value for {param_hint}: {message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:178
+msgid "Missing argument"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:180
+msgid "Missing option"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:182
+msgid "Missing parameter"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:184
+msgid "Missing {param_type}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:191
+msgid "Missing parameter: {param_name}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:211
+msgid "No such option: {name}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:225
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:261
+msgid "unknown error"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/exceptions.py:268
+msgid "Could not open file {filename!r}: {message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/parser.py:231
+msgid "Argument {name!r} takes {nargs} values."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/parser.py:413
+msgid "Option {name!r} does not take a value."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/parser.py:473
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+
+#: venv/lib/python3.10/site-packages/click/shell_completion.py:315
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/shell_completion.py:322
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:160
+msgid "Repeat for confirmation"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:176
+msgid "Error: The value you entered was invalid."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:178
+msgid "Error: {e.message}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:189
+msgid "Error: The two entered values do not match."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:245
+msgid "Error: invalid input"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/termui.py:776
+msgid "Press any key to continue..."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:265
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:299
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:389
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:409
+msgid "{value!r} is not a valid {number_type}."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:465
+msgid "{value} is not in the range {range}."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:606
+msgid "{value!r} is not a valid boolean."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:630
+msgid "{value!r} is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:811
+msgid "file"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:813
+msgid "directory"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:815
+msgid "path"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:861
+msgid "{name} {filename!r} does not exist."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:870
+msgid "{name} {filename!r} is a file."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:878
+msgid "{name} '{filename}' is a directory."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:887
+msgid "{name} {filename!r} is not readable."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:896
+msgid "{name} {filename!r} is not writable."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:905
+msgid "{name} {filename!r} is not executable."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/click/types.py:971
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:281
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:282
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:283
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:284
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:285
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:286
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:287
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:288
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:289
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:290
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:291
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:292
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:295
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:296
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:297
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:298
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:299
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:300
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:301
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:371
+msgid "1 second ago"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:377
+msgid "1 minute ago"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:382
+msgid "1 hour ago"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:385
+#, python-format
+msgid "%(time)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:387
+msgid "yesterday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:387
+#, python-format
+msgid "yesterday at %(time)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:389
+#, python-format
+msgid "%(weekday)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:389
+#, python-format
+msgid "%(weekday)s at %(time)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:392
+#: venv/lib/python3.10/site-packages/tornado/locale.py:445
+#, python-format
+msgid "%(month_name)s %(day)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:394
+#, python-format
+msgid "%(month_name)s %(day)s at %(time)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:399
+#, python-format
+msgid "%(month_name)s %(day)s, %(year)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:401
+#, python-format
+msgid "%(month_name)s %(day)s, %(year)s at %(time)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:439
+#, python-format
+msgid "%(weekday)s, %(month_name)s %(day)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/locale.py:462
+#, python-format
+msgid "%(commas)s and %(last)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/test/locale_test.py:68
+msgctxt "law"
+msgid "right"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/test/locale_test.py:69
+msgctxt "good"
+msgid "right"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/test/locale_test.py:71
+#: venv/lib/python3.10/site-packages/tornado/test/locale_test.py:74
+msgctxt "organization"
+msgid "club"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/tornado/test/locale_test.py:76
+#: venv/lib/python3.10/site-packages/tornado/test/locale_test.py:77
+msgctxt "stick"
+msgid "club"
+msgstr ""
+
