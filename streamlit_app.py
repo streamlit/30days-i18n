@@ -42,11 +42,13 @@ st.markdown(_("# 30 Days of Streamlit"))
 
 days_list = [_("Day") + f" {x}" for x in md_files]
 
-try:
-    if query_params and query_params["challenge"][0] in days_list:
-        st.session_state.day = query_params["challenge"][0]
-except KeyError:
-    st.session_state.day = days_list[0]
+if query_params:
+    try:
+        selected_day = query_params["challenge"][0].replace("Day", f"{_('Day')} ")
+        if selected_day in days_list:
+            st.session_state.day = selected_day
+    except KeyError:
+        st.session_state.day = days_list[0]
 
 selected_day = st.selectbox(
     _("Start the Challenge 👇"), days_list, key="day", on_change=update_params
