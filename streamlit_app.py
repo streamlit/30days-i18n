@@ -12,6 +12,8 @@ from language_constants import LANGUAGE_FLAG_DICTIONARY
 
 st.set_page_config(layout="wide")
 
+query_params = st.experimental_get_query_params()
+
 selected_language = st.session_state["language"]
 
 available_languages = get_app_locales()
@@ -24,7 +26,8 @@ for language, column in zip(available_languages, st.columns(len(available_langua
 
 
 def update_params():
-    st.experimental_set_query_params(challenge=st.session_state.day)
+    st.experimental_set_query_params(
+        challenge=st.session_state.day.replace(f'{_("Day")} ', "Day"))
 
 
 md_files = sorted(
@@ -38,8 +41,6 @@ with col2:
 st.markdown(_("# 30 Days of Streamlit"))
 
 days_list = [_("Day") + f" {x}" for x in md_files]
-
-query_params = st.experimental_get_query_params()
 
 try:
     if query_params and query_params["challenge"][0] in days_list:
