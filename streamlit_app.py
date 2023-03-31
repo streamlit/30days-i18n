@@ -19,8 +19,9 @@ selected_language = st.session_state["language"]
 available_languages = get_app_locales()
 for language, column in zip(available_languages, st.columns(len(available_languages))):
     with column:
-        label = f"{LANGUAGE_FLAG_DICTIONARY.get(language, '')} {Language.get(language).display_name(selected_language)}"
-        if st.button(label):
+        label = LANGUAGE_FLAG_DICTIONARY.get(language, '')
+        tooltip = Language.get(language).display_name(selected_language)
+        if st.button(label, help=tooltip):
             st.session_state["language"] = language
             st.experimental_rerun()
 
