@@ -1,20 +1,20 @@
-#: streamlit_app.py:41
+#: streamlit_app.py:42
 msgid "# 30 Days of Streamlit"
 msgstr "# 30 天学 Streamlit"
 
-#: streamlit_app.py:43
+#: streamlit_app.py:44
 msgid "Day"
-msgstr ""
+msgstr "天"
 
-#: streamlit_app.py:54
+#: streamlit_app.py:55
 msgid "Start the Challenge 👇"
 msgstr "开始挑战 👇"
 
-#: streamlit_app.py:57
+#: streamlit_app.py:58
 msgid "About the #30DaysOfStreamlit"
 msgstr "关于 #30天学Streamlit"
 
-#: streamlit_app.py:58
+#: streamlit_app.py:59
 msgid ""
 "\n"
 "    The **#30DaysOfStreamlit** is a coding challenge designed to help you"
@@ -36,11 +36,11 @@ msgstr ""
 "    - 学习所有好玩的、能用在 Streamlit 应用里的输入输出组件\n"
 "    "
 
-#: streamlit_app.py:70
+#: streamlit_app.py:71
 msgid "About"
 msgstr "关于 Streamlit"
 
-#: streamlit_app.py:71
+#: streamlit_app.py:72
 msgid ""
 "[Streamlit](https://streamlit.io) is a Python library that allows the "
 "creation of interactive, data-driven web applications in Python."
@@ -48,11 +48,11 @@ msgstr ""
 "[Streamlit](https://streamlit.io) 是一个 Python 库，能够用于使用 Python "
 "创建可交互的、数据驱动的网页应用"
 
-#: streamlit_app.py:75
+#: streamlit_app.py:76
 msgid "Resources"
 msgstr "相关资源"
 
-#: streamlit_app.py:76
+#: streamlit_app.py:77
 msgid ""
 "\n"
 "- [Streamlit Documentation](https://docs.streamlit.io/)\n"
@@ -70,11 +70,11 @@ msgstr ""
 "- [博客](https://blog.streamlit.io/how-to-master-streamlit-for-data-"
 "science/) (How to master Streamlit for data science)\n"
 
-#: streamlit_app.py:85
+#: streamlit_app.py:86
 msgid "Deploy"
 msgstr "如何部署"
 
-#: streamlit_app.py:86
+#: streamlit_app.py:87
 msgid ""
 "You can quickly deploy Streamlit apps using [Streamlit Community "
 "Cloud](https://streamlit.io/cloud) in just a few clicks."
@@ -82,7 +82,7 @@ msgstr ""
 "你可以使用 [Streamlit Community Cloud](https://streamlit.io/cloud)，点点鼠标即可完成 "
 "Streamlit 应用的部署"
 
-#: streamlit_app.py:99
+#: streamlit_app.py:100
 msgid "### Figures"
 msgstr "### 附图"
 
