@@ -8,7 +8,6 @@ from streamlit.locale import get_app_locales
 from PIL import Image
 
 from langcodes import Language
-from language_constants import LANGUAGE_FLAG_DICTIONARY
 
 st.set_page_config(layout="wide")
 
@@ -19,7 +18,7 @@ selected_language = st.session_state["language"]
 available_languages = get_app_locales()
 for language, column in zip(available_languages, st.columns(len(available_languages))):
     with column:
-        label = LANGUAGE_FLAG_DICTIONARY.get(language, '')
+        label = language
         tooltip = Language.get(language).display_name(selected_language)
         if st.button(label, help=tooltip):
             st.session_state["language"] = language
