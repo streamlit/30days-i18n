@@ -4,25 +4,13 @@ import os
 import pandas as pd
 import streamlit as st
 from streamlit.locale import gettext as _
-from streamlit.locale import get_app_locales
 from PIL import Image
-
-from langcodes import Language
 
 st.set_page_config(layout="wide")
 
 query_params = st.experimental_get_query_params()
 
 selected_language = st.session_state["language"]
-
-available_languages = get_app_locales()
-for language, column in zip(available_languages, st.columns(len(available_languages))):
-    with column:
-        label = language
-        tooltip = Language.get(language).display_name(selected_language)
-        if st.button(label, help=tooltip):
-            st.session_state["language"] = language
-            st.experimental_rerun()
 
 
 def update_params():
