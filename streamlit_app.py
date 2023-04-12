@@ -15,7 +15,7 @@ selected_language = st.session_state["language"]
 
 def update_params():
     st.experimental_set_query_params(
-        challenge=st.session_state.day.replace(f'{_("Day")} ', "Day"))
+        challenge=st.session_state.day)
 
 
 md_files = sorted(
@@ -28,18 +28,19 @@ with col2:
     st.image(Image.open("streamlit-logo-secondary-colormark-darktext.png"))
 st.markdown(_("# 30 Days of Streamlit"))
 
-days_list = [_("Day") + f" {x}" for x in md_files]
+days_list = [f"Day{x}" for x in md_files]
 
 if query_params:
     try:
-        selected_day = query_params["challenge"][0].replace("Day", f"{_('Day')} ")
+        selected_day = query_params["challenge"][0]
         if selected_day in days_list:
             st.session_state.day = selected_day
     except KeyError:
         st.session_state.day = days_list[0]
 
 selected_day = st.selectbox(
-    _("Start the Challenge 👇"), days_list, key="day", on_change=update_params
+    _("Start the Challenge 👇"), days_list, key="day", on_change=update_params,
+    format_func=lambda x: x.replace("Day", f'{_("Day")} ')
 )
 
 with st.expander(_("About the #30DaysOfStreamlit")):
@@ -76,16 +77,15 @@ st.sidebar.markdown(_(
 ))
 
 # Display content
-for i in days_list:
-    if selected_day == i:
-        st.markdown(f"# 🗓️ {i}")
-        j = i.replace(f'{_("Day")} ', "Day")
-        with open(f"content/{selected_language}/{j}.md", "r") as f:
+for day in days_list:
+    if selected_day == day:
+        st.markdown("# 🗓️ " + day.replace("Day", f'{_("Day")} '))
+        with open(f"content/{selected_language}/{day}.md", "r") as f:
             st.markdown(f.read())
-        if os.path.isfile(f"content/{selected_language}/figures/{j}.csv"):
+        if os.path.isfile(f"content/{selected_language}/figures/{day}.csv"):
             st.markdown("---")
             st.markdown(_("### Figures"))
-            df = pd.read_csv(f"content/{selected_language}/figures/{j}.csv", engine="python")
+            df = pd.read_csv(f"content/{selected_language}/figures/{day}.csv", engine="python")
             for i in range(len(df)):
                 st.image(f"content/{selected_language}/images/{df.img[i]}")
                 st.info(f"{df.figure[i]}: {df.caption[i]}")
