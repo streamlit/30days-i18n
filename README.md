@@ -2,6 +2,7 @@
 
 * [English](readmes/en/README.md)
 * [বাংলা](readmes/bn/README.md)
+* [Deutsch](readmes/de/README.md)
 * [français](readmes/fr/README.md)
 * [हिन्दी](readmes/hi/README.md)
 * [русский](readmes/ru/README.md)

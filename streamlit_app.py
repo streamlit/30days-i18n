@@ -22,6 +22,11 @@ md_files = sorted(
     [int(x.strip("Day").strip(".md")) for x in glob.glob1(f"content/{selected_language}", "*.md")]
 )
 
+placeholder = st.empty()
+with placeholder:
+    st.write(_("Day"))
+placeholder.empty()
+
 # Logo and Navigation
 col1, col2, col3 = st.columns((1, 4, 1))
 with col2:
