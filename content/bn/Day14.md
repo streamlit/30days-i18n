@@ -29,14 +29,15 @@ pip install streamlit_pandas_profiling
 ```python
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+from ydata_profiling import ProfileReport
+
 from streamlit_pandas_profiling import st_profile_report
 
 st.header('`streamlit_pandas_profiling`')
 
 df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
 
-pr = df.profile_report()
+pr = ProfileReport(df, title="Profiling Report")
 st_profile_report(pr)
 ```
 
@@ -45,7 +46,7 @@ st_profile_report(pr)
 ```python
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 ```
 
@@ -61,7 +62,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/pe
 
 পান্ডার `profile_report()` কমান্ড দিয়ে প্রোফাইল রিপোর্ট তৈরী করুন এবং দেখানোর জন্য এই কমান্ডটি `st_profile_report`:
 ```python
-pr = df.profile_report()
+pr = ProfileReport(df, title="Profiling Report")
 st_profile_report(pr)
 ```
 

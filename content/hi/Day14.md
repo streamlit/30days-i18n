@@ -32,14 +32,15 @@ pip install streamlit_pandas_profiling
 ```python
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+from ydata_profiling import ProfileReport
+
 from streamlit_pandas_profiling import st_profile_report
 
 st.header('`streamlit_pandas_profiling`')
 
 df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
 
-pr = df.profile_report()
+pr = ProfileReport(df, title="Profiling Report")
 st_profile_report(pr)
 ```
 
@@ -50,7 +51,7 @@ Streamlit ऐप बनाते समय सबसे पहली बात �
 ```python
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 ```
 
@@ -69,7 +70,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/pe
 अंत में, पांडाज़ प्रोफाइलिंग रिपोर्ट `profile_report()` कमांड के माध्यम से जेनरेट होती है और `st_profile_report` का उपयोग करके प्रदर्शित की जाती है:
 
 ```python
-pr = df.profile_report()
+pr = ProfileReport(df, title="Profiling Report")
 st_profile_report(pr)
 ```
 

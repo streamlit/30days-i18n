@@ -31,14 +31,15 @@ pip install streamlit_pandas_profiling
 ```python
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+from ydata_profiling import ProfileReport
+
 from streamlit_pandas_profiling import st_profile_report
 
 st.header('`streamlit_pandas_profiling`')
 
 df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
 
-pr = df.profile_report()
+pr = ProfileReport(df, title="Profiling Report")
 st_profile_report(pr)
 ```
 
@@ -49,7 +50,7 @@ st_profile_report(pr)
 ```python
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 ```
 
@@ -68,7 +69,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/pe
 最后，由 `profile_report()` 命令生成分析报告，并用 `st_profile_report` 显示出来：
 
 ```python
-pr = df.profile_report()
+pr = ProfileReport(df, title="Profiling Report")
 st_profile_report(pr)
 ```
 
