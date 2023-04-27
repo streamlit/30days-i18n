@@ -1,20 +1,20 @@
-#: streamlit_app.py:33
+#: streamlit_app.py:23 streamlit_app.py:32
 msgid "Day {day}"
 msgstr "{day}日目"
 
-#: streamlit_app.py:40
+#: streamlit_app.py:39
 msgid "# 30 Days of Streamlit"
 msgstr "30日のストリームリット"
 
-#: streamlit_app.py:53
+#: streamlit_app.py:52
 msgid "Start the Challenge 👇"
 msgstr "👇 チャレンジ開始"
 
-#: streamlit_app.py:57
+#: streamlit_app.py:56
 msgid "About the #30DaysOfStreamlit"
 msgstr "30DaysOfStreamlitについて"
 
-#: streamlit_app.py:58
+#: streamlit_app.py:57
 msgid ""
 "\n"
 "    The **#30DaysOfStreamlit** is a coding challenge designed to help you"
@@ -35,21 +35,21 @@ msgstr ""
 "    - Streamlitアプリに使用できる素晴らしい入出力ウィジェットについてご紹介します。\n"
 "    "
 
-#: streamlit_app.py:70
+#: streamlit_app.py:69
 msgid "About"
 msgstr "Streamlitについて"
 
-#: streamlit_app.py:71
+#: streamlit_app.py:70
 msgid ""
 "[Streamlit](https://streamlit.io) is a Python library that allows the "
 "creation of interactive, data-driven web applications in Python."
 msgstr "[Streamlit](https://streamlit.io)は、Pythonを使用してインタラクティブでデータドリブンなWebアプリケーションを作成することができるPythonライブラリです。"
 
-#: streamlit_app.py:75
+#: streamlit_app.py:74
 msgid "Resources"
 msgstr "リソース"
 
-#: streamlit_app.py:76
+#: streamlit_app.py:75
 msgid ""
 "\n"
 "- [Streamlit Documentation](https://docs.streamlit.io/)\n"
@@ -66,11 +66,11 @@ msgstr ""
 "- [ブログ](https://blog.streamlit.io/how-to-master-streamlit-for-data-"
 "science/) (データサイエンスのためのStreamlitの使いこなし方)\n"
 
-#: streamlit_app.py:85
+#: streamlit_app.py:84
 msgid "Deploy"
 msgstr "デプロイ"
 
-#: streamlit_app.py:86
+#: streamlit_app.py:85
 msgid ""
 "You can quickly deploy Streamlit apps using [Streamlit Community "
 "Cloud](https://streamlit.io/cloud) in just a few clicks."
@@ -78,11 +78,11 @@ msgstr ""
 "Streamlitアプリは [Streamlit Community Cloud](https://streamlit.io/cloud) "
 "を利用して、素早く数クリックでデプロイできます。"
 
-#: streamlit_app.py:93
-msgid "# 🗓️ Day"
-msgstr "日目 🗓️"
+#: streamlit_app.py:92
+msgid "# 🗓️ Which {day_num}"
+msgstr "# {day_num}日目 🗓"
 
-#: streamlit_app.py:98
+#: streamlit_app.py:97
 msgid "### Figures"
 msgstr "図版"
 
@@ -527,4 +527,7 @@ msgstr ""
 
 #~ msgid "Day"
 #~ msgstr "日"
+
+#~ msgid "# 🗓️ Day"
+#~ msgstr "日目 🗓️"
 

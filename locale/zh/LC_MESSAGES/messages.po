@@ -83,8 +83,8 @@ msgstr ""
 "Streamlit 应用的部署"
 
 #: streamlit_app.py:92
-msgid "# 🗓️ Day"
-msgstr "# 🗓️ 天"
+msgid "# 🗓️ Which {day_num}"
+msgstr "# 🗓️ 天 {day_num}"
 
 #: streamlit_app.py:97
 msgid "### Figures"
@@ -519,4 +519,7 @@ msgstr ""
 
 #~ msgid "Day"
 #~ msgstr "天"
+
+#~ msgid "# 🗓️ Day"
+#~ msgstr "# 🗓️ 天"
 

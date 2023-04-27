@@ -86,8 +86,8 @@ msgstr ""
 "को तेज़ी से डिप्लॉय कर सकते हैं।"
 
 #: streamlit_app.py:92
-msgid "# 🗓️ Day"
-msgstr "# 🗓️ दिन"
+msgid "# 🗓️ Which {day_num}"
+msgstr "# 🗓️ दिन {day_num}"
 
 #: streamlit_app.py:97
 msgid "### Figures"
@@ -529,4 +529,7 @@ msgstr ""
 
 #~ msgid "Day"
 #~ msgstr "दिन"
+
+#~ msgid "# 🗓️ Day"
+#~ msgstr "# 🗓️ दिन"
 

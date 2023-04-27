@@ -85,8 +85,8 @@ msgstr ""
 "Cloud](https://streamlit.io/cloud) en quelques clics!"
 
 #: streamlit_app.py:92
-msgid "# 🗓️ Day"
-msgstr "# 🗓️ Jour"
+msgid "# 🗓️ Which {day_num}"
+msgstr "# 🗓️ Jour {day_num}"
 
 #: streamlit_app.py:97
 msgid "### Figures"
@@ -528,4 +528,7 @@ msgstr ""
 
 #~ msgid "Day"
 #~ msgstr "Jour"
+
+#~ msgid "# 🗓️ Day"
+#~ msgstr "# 🗓️ Jour"
 

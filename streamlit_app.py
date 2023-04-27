@@ -89,7 +89,7 @@ st.sidebar.markdown(_(
 # Display content
 for day in days_list:
     if selected_day == day:
-        st.markdown(_("# 🗓️ Day"))
+        st.markdown(_("# 🗓️ Which {day_num}").format(day_num=int(re.search(r'\d+', day).group())))
         with open(f"content/{selected_language}/{day}.md", "r") as f:
             st.markdown(f.read())
         if os.path.isfile(f"content/{selected_language}/figures/{day}.csv"):
