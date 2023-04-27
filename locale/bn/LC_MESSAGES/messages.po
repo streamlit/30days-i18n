@@ -1,20 +1,20 @@
-#: streamlit_app.py:22
+#: streamlit_app.py:23 streamlit_app.py:32
+msgid "Day {day}"
+msgstr "দিন {day}"
+
+#: streamlit_app.py:39
 msgid "# 30 Days of Streamlit"
 msgstr "# ৩০ দিনে স্ট্রিমলিট্ "
 
-#: streamlit_app.py:24
-msgid "Day"
-msgstr "দিন"
-
-#: streamlit_app.py:35
+#: streamlit_app.py:52
 msgid "Start the Challenge 👇"
 msgstr "চ্যালেঞ্জ শুরু করুন 👇"
 
-#: streamlit_app.py:38
+#: streamlit_app.py:56
 msgid "About the #30DaysOfStreamlit"
 msgstr "#30DaysOfStreamlit সম্পর্কিত"
 
-#: streamlit_app.py:39
+#: streamlit_app.py:57
 msgid ""
 "\n"
 "    The **#30DaysOfStreamlit** is a coding challenge designed to help you"
@@ -38,11 +38,11 @@ msgstr ""
 "ইনপুট/আউটপুট উইজেট সম্পর্কে জানুন\n"
 "    "
 
-#: streamlit_app.py:51
+#: streamlit_app.py:69
 msgid "About"
 msgstr "সম্পর্কিত"
 
-#: streamlit_app.py:52
+#: streamlit_app.py:70
 msgid ""
 "[Streamlit](https://streamlit.io) is a Python library that allows the "
 "creation of interactive, data-driven web applications in Python."
@@ -50,11 +50,11 @@ msgstr ""
 "[স্ট্রিমলিট্](https://streamlit.io) হল একটি পাইথন লাইব্রেরি যা পাইথনে "
 "ইন্টারেক্টিভ, ডেটা-চালিত ওয়েব অ্যাপ্লিকেশন তৈরি করতে দেয়"
 
-#: streamlit_app.py:56
+#: streamlit_app.py:74
 msgid "Resources"
 msgstr "সম্পদ"
 
-#: streamlit_app.py:57
+#: streamlit_app.py:75
 msgid ""
 "\n"
 "- [Streamlit Documentation](https://docs.streamlit.io/)\n"
@@ -72,11 +72,11 @@ msgstr ""
 "- [ব্লগ](https://blog.streamlit.io/how-to-master-streamlit-for-data-"
 "science/) (ডেটা সায়েন্সের জন্য কীভাবে স্ট্রিমলিট্ আয়ত্ত করবেন)\n"
 
-#: streamlit_app.py:66
+#: streamlit_app.py:84
 msgid "Deploy"
 msgstr "স্থাপন করুন"
 
-#: streamlit_app.py:67
+#: streamlit_app.py:85
 msgid ""
 "You can quickly deploy Streamlit apps using [Streamlit Community "
 "Cloud](https://streamlit.io/cloud) in just a few clicks."
@@ -85,7 +85,11 @@ msgstr ""
 "ক্লাউড](https://streamlit.io/cloud) ব্যবহার করে দ্রুত স্ট্রিমলিট্ অ্যাপ "
 "স্থাপন করতে পারেন।"
 
-#: streamlit_app.py:80
+#: streamlit_app.py:92
+msgid "# 🗓️ Day"
+msgstr "# 🗓️ দিন"
+
+#: streamlit_app.py:97
 msgid "### Figures"
 msgstr "### পরিসংখ্যান"
 
@@ -522,4 +526,7 @@ msgstr ""
 msgctxt "stick"
 msgid "club"
 msgstr ""
+
+#~ msgid "Day"
+#~ msgstr "দিন"
 

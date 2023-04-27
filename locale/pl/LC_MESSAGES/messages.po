@@ -1,20 +1,20 @@
-#: streamlit_app.py:22
+#: streamlit_app.py:23 streamlit_app.py:32
+msgid "Day {day}"
+msgstr "Dzień {day}"
+
+#: streamlit_app.py:39
 msgid "# 30 Days of Streamlit"
 msgstr "# Streamlit w 30 dni po polsku 🎈"
 
-#: streamlit_app.py:24
-msgid "Day"
-msgstr "Dzień"
-
-#: streamlit_app.py:35
+#: streamlit_app.py:52
 msgid "Start the Challenge 👇"
 msgstr "Rozpocznij lekcję 👇"
 
-#: streamlit_app.py:38
+#: streamlit_app.py:56
 msgid "About the #30DaysOfStreamlit"
 msgstr "Przeczytaj więcej o inicjatywie #30DaysOfStreamlit"
 
-#: streamlit_app.py:39
+#: streamlit_app.py:57
 msgid ""
 "\n"
 "    The **#30DaysOfStreamlit** is a coding challenge designed to help you"
@@ -38,11 +38,11 @@ msgstr ""
 "pomogą Ci zbudować interaktywną aplikację\n"
 "    "
 
-#: streamlit_app.py:51
+#: streamlit_app.py:69
 msgid "About"
 msgstr "Czym jest Streamlit?"
 
-#: streamlit_app.py:52
+#: streamlit_app.py:70
 msgid ""
 "[Streamlit](https://streamlit.io) is a Python library that allows the "
 "creation of interactive, data-driven web applications in Python."
@@ -52,11 +52,11 @@ msgstr ""
 "danych. Aplikacje tworzysz wyłącznie z użyciem Pythona i bez konieczności"
 " używania innych technologii, takich jak JavaScript, HTML, CSS."
 
-#: streamlit_app.py:56
+#: streamlit_app.py:74
 msgid "Resources"
 msgstr "Zobacz też (materiały po angielsku)"
 
-#: streamlit_app.py:57
+#: streamlit_app.py:75
 msgid ""
 "\n"
 "- [Streamlit Documentation](https://docs.streamlit.io/)\n"
@@ -74,11 +74,11 @@ msgstr ""
 "- [Blog](https://blog.streamlit.io/how-to-master-streamlit-for-data-"
 "science/) (Jak opanować bibliotekę Streamlit do analizy danych?)\n"
 
-#: streamlit_app.py:66
+#: streamlit_app.py:84
 msgid "Deploy"
 msgstr "Wdrażanie"
 
-#: streamlit_app.py:67
+#: streamlit_app.py:85
 msgid ""
 "You can quickly deploy Streamlit apps using [Streamlit Community "
 "Cloud](https://streamlit.io/cloud) in just a few clicks."
@@ -86,7 +86,11 @@ msgstr ""
 "Dzięki [Chmurze](https://streamlit.io/cloud) możesz szybko wdrożyć swoją "
 "aplikację za pomocą kilku kliknięć."
 
-#: streamlit_app.py:80
+#: streamlit_app.py:92
+msgid "# 🗓️ Day"
+msgstr "# 🗓️ Dzień"
+
+#: streamlit_app.py:97
 msgid "### Figures"
 msgstr "### Ilustracje"
 
@@ -530,4 +534,7 @@ msgstr ""
 msgctxt "stick"
 msgid "club"
 msgstr ""
+
+#~ msgid "Day"
+#~ msgstr "Dzień"
 

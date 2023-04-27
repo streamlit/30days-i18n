@@ -1,20 +1,20 @@
-#: streamlit_app.py:22
+#: streamlit_app.py:23 streamlit_app.py:32
+msgid "Day {day}"
+msgstr "Día {day}"
+
+#: streamlit_app.py:39
 msgid "# 30 Days of Streamlit"
 msgstr "# 30 Días de Streamlit"
 
-#: streamlit_app.py:24
-msgid "Day"
-msgstr "Día"
-
-#: streamlit_app.py:35
+#: streamlit_app.py:52
 msgid "Start the Challenge 👇"
 msgstr "Comenzar con el desafío 👇"
 
-#: streamlit_app.py:38
+#: streamlit_app.py:56
 msgid "About the #30DaysOfStreamlit"
 msgstr "Acerca de #30DaysOfStreamlit"
 
-#: streamlit_app.py:39
+#: streamlit_app.py:57
 msgid ""
 "\n"
 "    The **#30DaysOfStreamlit** is a coding challenge designed to help you"
@@ -39,11 +39,11 @@ msgstr ""
 " tu aplicación Streamlit\n"
 "    "
 
-#: streamlit_app.py:51
+#: streamlit_app.py:69
 msgid "About"
 msgstr "Acerca"
 
-#: streamlit_app.py:52
+#: streamlit_app.py:70
 msgid ""
 "[Streamlit](https://streamlit.io) is a Python library that allows the "
 "creation of interactive, data-driven web applications in Python."
@@ -52,11 +52,11 @@ msgstr ""
 "la creación de aplicaciones web interactivas, basadas en datos de Python "
 "."
 
-#: streamlit_app.py:56
+#: streamlit_app.py:74
 msgid "Resources"
 msgstr "Recursos"
 
-#: streamlit_app.py:57
+#: streamlit_app.py:75
 msgid ""
 "\n"
 "- [Streamlit Documentation](https://docs.streamlit.io/)\n"
@@ -74,11 +74,11 @@ msgstr ""
 "- [Blog](https://blog.streamlit.io/how-to-master-streamlit-for-data-"
 "science/) (How to master Streamlit for data science)\n"
 
-#: streamlit_app.py:66
+#: streamlit_app.py:84
 msgid "Deploy"
 msgstr "Despliegue"
 
-#: streamlit_app.py:67
+#: streamlit_app.py:85
 msgid ""
 "You can quickly deploy Streamlit apps using [Streamlit Community "
 "Cloud](https://streamlit.io/cloud) in just a few clicks."
@@ -86,7 +86,11 @@ msgstr ""
 "Tu puedes desplegar rápidamente aplicaciones Streamlit usando [Streamlit "
 "Community Cloud](https://streamlit.io/cloud) en solo algunos clicks."
 
-#: streamlit_app.py:80
+#: streamlit_app.py:92
+msgid "# 🗓️ Day"
+msgstr "# 🗓️ Día"
+
+#: streamlit_app.py:97
 msgid "### Figures"
 msgstr "### Ilustraciones"
 
@@ -523,4 +527,7 @@ msgstr ""
 msgctxt "stick"
 msgid "club"
 msgstr ""
+
+#~ msgid "Day"
+#~ msgstr "Día"
 

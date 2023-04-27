@@ -1,5 +1,6 @@
 import glob
 import os
+import re
 
 import pandas as pd
 import streamlit as st
@@ -18,13 +19,17 @@ def update_params():
         challenge=st.session_state.day)
 
 
+def format_day(label):
+    return _("Day {day}").format(day=int(re.search(r'\d+', label).group()))
+
+
 md_files = sorted(
     [int(x.strip("Day").strip(".md")) for x in glob.glob1(f"content/{selected_language}", "*.md")]
 )
 
 placeholder = st.empty()
 with placeholder:
-    st.write(_("Day"))
+    st.write(_("Day {day}").format(day=1))
 placeholder.empty()
 
 # Logo and Navigation
@@ -45,7 +50,7 @@ if query_params:
 
 selected_day = st.selectbox(
     _("Start the Challenge 👇"), days_list, key="day", on_change=update_params,
-    format_func=lambda x: x.replace("Day", f'{_("Day")} ')
+    format_func=format_day
 )
 
 with st.expander(_("About the #30DaysOfStreamlit")):
@@ -84,7 +89,7 @@ st.sidebar.markdown(_(
 # Display content
 for day in days_list:
     if selected_day == day:
-        st.markdown("# 🗓️ " + day.replace("Day", f'{_("Day")} '))
+        st.markdown(_("# 🗓️ Day"))
         with open(f"content/{selected_language}/{day}.md", "r") as f:
             st.markdown(f.read())
         if os.path.isfile(f"content/{selected_language}/figures/{day}.csv"):

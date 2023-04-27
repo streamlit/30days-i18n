@@ -1,62 +1,62 @@
-#: streamlit_app.py:22
+#: streamlit_app.py:23 streamlit_app.py:32
+msgid "Day {day}"
+msgstr "Day {day}"
+
+#: streamlit_app.py:39
 msgid "# 30 Days of Streamlit"
 msgstr "# 30 Days of Streamlit"
 
-#: streamlit_app.py:24
-msgid "Day"
-msgstr "Day"
-
-#: streamlit_app.py:35
+#: streamlit_app.py:52
 msgid "Start the Challenge 👇"
 msgstr "Start the Challenge 👇"
 
-#: streamlit_app.py:38
+#: streamlit_app.py:56
 msgid "About the #30DaysOfStreamlit"
 msgstr "About the #30DaysOfStreamlit"
-
-#: streamlit_app.py:39
-msgid ""
-"\n"
-"    The **#30DaysOfStreamlit** is a coding challenge designed to help you"
-" get started in building Streamlit apps.\n"
-"    \n"
-"    Particularly, you'll be able to:\n"
-"    - Set up a coding environment for building Streamlit apps\n"
-"    - Build your first Streamlit app\n"
-"    - Learn about all the awesome input/output widgets to use for your "
-"Streamlit app\n"
-"    "
-msgstr ""
-"\n"
-"    The **#30DaysOfStreamlit** is a coding challenge designed to help you"
-" get started in building Streamlit apps.\n"
-"    \n"
-"    Particularly, you'll be able to:\n"
-"    - Set up a coding environment for building Streamlit apps\n"
-"    - Build your first Streamlit app\n"
-"    - Learn about all the awesome input/output widgets to use for your "
-"Streamlit app\n"
-"    "
-
-#: streamlit_app.py:51
-msgid "About"
-msgstr "About"
-
-#: streamlit_app.py:52
-msgid ""
-"[Streamlit](https://streamlit.io) is a Python library that allows the "
-"creation of interactive, data-driven web applications in Python."
-msgstr ""
-"[Streamlit](https://streamlit.io) is a Python library that allows the "
-"creation of interactive, data-driven web applications in Python."
-
-#: streamlit_app.py:56
-msgid "Resources"
-msgstr "Resources"
 
 #: streamlit_app.py:57
 msgid ""
 "\n"
+"    The **#30DaysOfStreamlit** is a coding challenge designed to help you"
+" get started in building Streamlit apps.\n"
+"    \n"
+"    Particularly, you'll be able to:\n"
+"    - Set up a coding environment for building Streamlit apps\n"
+"    - Build your first Streamlit app\n"
+"    - Learn about all the awesome input/output widgets to use for your "
+"Streamlit app\n"
+"    "
+msgstr ""
+"\n"
+"    The **#30DaysOfStreamlit** is a coding challenge designed to help you"
+" get started in building Streamlit apps.\n"
+"    \n"
+"    Particularly, you'll be able to:\n"
+"    - Set up a coding environment for building Streamlit apps\n"
+"    - Build your first Streamlit app\n"
+"    - Learn about all the awesome input/output widgets to use for your "
+"Streamlit app\n"
+"    "
+
+#: streamlit_app.py:69
+msgid "About"
+msgstr "About"
+
+#: streamlit_app.py:70
+msgid ""
+"[Streamlit](https://streamlit.io) is a Python library that allows the "
+"creation of interactive, data-driven web applications in Python."
+msgstr ""
+"[Streamlit](https://streamlit.io) is a Python library that allows the "
+"creation of interactive, data-driven web applications in Python."
+
+#: streamlit_app.py:74
+msgid "Resources"
+msgstr "Resources"
+
+#: streamlit_app.py:75
+msgid ""
+"\n"
 "- [Streamlit Documentation](https://docs.streamlit.io/)\n"
 "- [Cheat sheet](https://docs.streamlit.io/library/cheatsheet)\n"
 "- [Book](https://www.amazon.com/dp/180056550X) (Getting Started with "
@@ -72,11 +72,11 @@ msgstr ""
 "- [Blog](https://blog.streamlit.io/how-to-master-streamlit-for-data-"
 "science/) (How to master Streamlit for data science)\n"
 
-#: streamlit_app.py:66
+#: streamlit_app.py:84
 msgid "Deploy"
 msgstr "Deploy"
 
-#: streamlit_app.py:67
+#: streamlit_app.py:85
 msgid ""
 "You can quickly deploy Streamlit apps using [Streamlit Community "
 "Cloud](https://streamlit.io/cloud) in just a few clicks."
@@ -84,7 +84,11 @@ msgstr ""
 "You can quickly deploy Streamlit apps using [Streamlit Community "
 "Cloud](https://streamlit.io/cloud) in just a few clicks."
 
-#: streamlit_app.py:80
+#: streamlit_app.py:92
+msgid "# 🗓️ Day"
+msgstr "# 🗓️ Day"
+
+#: streamlit_app.py:97
 msgid "### Figures"
 msgstr "### Figures"
 
@@ -521,4 +525,7 @@ msgstr ""
 msgctxt "stick"
 msgid "club"
 msgstr ""
+
+#~ msgid "Day"
+#~ msgstr "Day"
 
