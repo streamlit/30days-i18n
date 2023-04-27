@@ -37,13 +37,13 @@ msgstr ""
 
 #: streamlit_app.py:64
 msgid "About"
-msgstr "について"
+msgstr "Streamlitについて"
 
 #: streamlit_app.py:65
 msgid ""
 "[Streamlit](https://streamlit.io) is a Python library that allows the "
 "creation of interactive, data-driven web applications in Python."
-msgstr "[Streamlit](https://streamlit.io)は、Pythonでインタラクティブなデータ駆動型Webアプリケーションを作成することができるPythonライブラリです。"
+msgstr "[Streamlit](https://streamlit.io)は、Pythonを使用してインタラクティブでデータドリブンなWebアプリケーションを作成することができるPythonライブラリです。"
 
 #: streamlit_app.py:69
 msgid "Resources"
@@ -60,10 +60,10 @@ msgid ""
 "science/) (How to master Streamlit for data science)\n"
 msgstr ""
 "\n"
-"- [Streamlit ドキュメンテーション](https://docs.streamlit.io/)\n"
+"- [Streamlit ドキュメント](https://docs.streamlit.io/)\n"
 "- [チートシート](https://docs.streamlit.io/library/cheatsheet)\n"
-"- [本の紹介](https://www.amazon.com/dp/180056550X) (データサイエンスのためのStreamlit入門)\n"
-"- [ブログで紹介します](https://blog.streamlit.io/how-to-master-streamlit-for-data-"
+"- [書籍](https://www.amazon.com/dp/180056550X) (データサイエンスのためのStreamlit入門)\n"
+"- [ブログ](https://blog.streamlit.io/how-to-master-streamlit-for-data-"
 "science/) (データサイエンスのためのStreamlitの使いこなし方)\n"
 
 #: streamlit_app.py:79
@@ -75,8 +75,8 @@ msgid ""
 "You can quickly deploy Streamlit apps using [Streamlit Community "
 "Cloud](https://streamlit.io/cloud) in just a few clicks."
 msgstr ""
-"[Streamlit Community "
-"Cloud](https://streamlit.io/cloud)を利用したStreamlitアプリのデプロイは、数クリックで素早く行えます。"
+"Streamlitアプリは [Streamlit Community Cloud](https://streamlit.io/cloud) "
+"を利用して、素早く数クリックでデプロイできます。"
 
 #: streamlit_app.py:92
 msgid "### Figures"
@@ -99,9 +99,9 @@ msgstr ""
 msgid "{editor}: Editing failed: {e}"
 msgstr ""
 
+# | msgid "About"
 #: venv/lib/python3.10/site-packages/click/core.py:1097
 #, fuzzy
-#| msgid "About"
 msgid "Aborted!"
 msgstr "について"
 
@@ -362,9 +362,9 @@ msgstr ""
 msgid "April"
 msgstr ""
 
+# | msgid "Day"
 #: venv/lib/python3.10/site-packages/tornado/locale.py:285
 #, fuzzy
-#| msgid "Day"
 msgid "May"
 msgstr "日"
 
@@ -396,15 +396,15 @@ msgstr ""
 msgid "December"
 msgstr ""
 
+# | msgid "Day"
 #: venv/lib/python3.10/site-packages/tornado/locale.py:295
 #, fuzzy
-#| msgid "Day"
 msgid "Monday"
 msgstr "日"
 
+# | msgid "Day"
 #: venv/lib/python3.10/site-packages/tornado/locale.py:296
 #, fuzzy
-#| msgid "Day"
 msgid "Tuesday"
 msgstr "日"
 
@@ -416,9 +416,9 @@ msgstr ""
 msgid "Thursday"
 msgstr ""
 
+# | msgid "Day"
 #: venv/lib/python3.10/site-packages/tornado/locale.py:299
 #, fuzzy
-#| msgid "Day"
 msgid "Friday"
 msgstr "日"
 
@@ -426,9 +426,9 @@ msgstr "日"
 msgid "Saturday"
 msgstr ""
 
+# | msgid "Day"
 #: venv/lib/python3.10/site-packages/tornado/locale.py:301
 #, fuzzy
-#| msgid "Day"
 msgid "Sunday"
 msgstr "日"
 
