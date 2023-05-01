@@ -29,14 +29,15 @@ So erstellt man eine Streamlit App mithilfe einer Komponent:
 ```python
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+from ydata_profiling import ProfileReport
+
 from streamlit_pandas_profiling import st_profile_report
 
 st.header('`streamlit_pandas_profiling`')
 
 df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
 
-pr = df.profile_report()
+pr = ProfileReport(df, title="Profiling Report")
 st_profile_report(pr)
 ```
 
@@ -45,7 +46,7 @@ Der erste Schritt für das Erstellen einer Streamlit App ist es, die `streamlit`
 ```python
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 ```
 
@@ -61,7 +62,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/pe
 
 Zuletzt wird der Profiling-Bericht von `pandas` mit dem Befehl `profile_report()` erstellt und mit `st_profile_report` angezeigt:
 ```python
-pr = df.profile_report()
+pr = ProfileReport(df, title="Profiling Report")
 st_profile_report(pr)
 ```
 
