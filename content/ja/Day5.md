@@ -34,7 +34,7 @@ st.header('st.write')
 
 #例1
 
-st.write('Hello, *World!* emoji')
+st.write('Hello, *World!* :sunglasses:')
 
 #例2
 
