@@ -79,7 +79,7 @@ st.header('st.write')
 **例1** 基本的なユースケースは、テキストやMarkdown形式のテキストの表示です。
 
 ```python
-st.write('Hello, *World!* emoji')
+st.write('Hello, *World!* :sunglasses:')
 ```
 
 **例2** 上記のように、数値など他のデータ形式の表示にも使用できます。
