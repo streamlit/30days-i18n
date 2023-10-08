@@ -37,19 +37,19 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
   if user_name != '':
-    st.write(f'?? Hello {user_name}!')
+    st.write(f'👋 Hello {user_name}!')
   else:
-    st.write('??  Please enter your **name**!')
+    st.write('👈  Please enter your **name**!')
 
 with col2:
   if user_emoji != '':
     st.write(f'{user_emoji} is your favorite **emoji**!')
   else:
-    st.write('?? Please choose an **emoji**!')
+    st.write('👈 Please choose an **emoji**!')
 
 with col3:
   if user_food != '':
-    st.write(f'?? **{user_food}** is your favorite **food**!')
+    st.write(f'👈 **{user_food}** is your favorite **food**!')
   else:
     st.write('?? Please choose your favorite **food**!')
 ```
@@ -87,7 +87,7 @@ with st.expander('About this app'):
 ```python
 st.sidebar.header('Input')
 user_name = st.sidebar.text_input('What is your name?')
-user_emoji = st.sidebar.selectbox('Choose an emoji', ['', '??', '??', '??', '??', '??', '??', '??'])
+user_emoji = st.sidebar.selectbox('Choose an emoji', ['', '😄', '😆', '😊', '😍', '😴', '😕', '😱'])
 user_food = st.sidebar.selectbox('What is your favorite food?', ['', 'Tom Yum Kung', 'Burrito', 'Lasagna', 'Hamburger', 'Pizza'])
 ```
 
@@ -100,21 +100,21 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
   if user_name != '':
-    st.write(f'?? Hello {user_name}!')
+    st.write(f'👋 Hello {user_name}!')
   else:
-    st.write('??  Please enter your **name**!')
+    st.write('👈  Please enter your **name**!')
 
 with col2:
   if user_emoji != '':
     st.write(f'{user_emoji} is your favorite **emoji**!')
   else:
-    st.write('?? Please choose an **emoji**!')
+    st.write('👈 Please choose an **emoji**!')
 
 with col3:
   if user_food != '':
-    st.write(f'?? **{user_food}** is your favorite **food**!')
+    st.write(f'🍴 **{user_food}** is your favorite **food**!')
   else:
-    st.write('?? Please choose your favorite **food**!')
+    st.write('👈 Please choose your favorite **food**!')
 ```
 
 `f`文字列を使用して、定型テキストとユーザーが指定した値を組み合わせている点にも注目してください。
