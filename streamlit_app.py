@@ -4,13 +4,13 @@ import re
 
 import pandas as pd
 import streamlit as st
-from streamlit.locale import gettext as _
 from PIL import Image
 
 st.set_page_config(layout="wide")
 
 query_params = st.experimental_get_query_params()
 
+st.session_state["language"] = "zh"
 selected_language = st.session_state["language"]
 
 
@@ -20,7 +20,7 @@ def update_params():
 
 
 def format_day(label):
-    return _("Day {day}").format(day=int(re.search(r'\d+', label).group()))
+    return ("Day {day}").format(day=int(re.search(r'\d+', label).group()))
 
 
 md_files = sorted(
@@ -29,14 +29,14 @@ md_files = sorted(
 
 placeholder = st.empty()
 with placeholder:
-    st.write(_("Day {day}").format(day=1))
+    st.write(("Day {day}").format(day=1))
 placeholder.empty()
 
 # Logo and Navigation
 col1, col2, col3 = st.columns((1, 4, 1))
 with col2:
     st.image(Image.open("streamlit-logo-secondary-colormark-darktext.png"))
-st.markdown(_("# 30 Days of Streamlit"))
+st.markdown(("# 30 Days of Streamlit"))
 
 days_list = [f"Day{x}" for x in md_files]
 
@@ -49,12 +49,12 @@ if query_params:
         st.session_state.day = days_list[0]
 
 selected_day = st.selectbox(
-    _("Start the Challenge 👇"), days_list, key="day", on_change=update_params,
+    ("Start the Challenge 👇"), days_list, key="day", on_change=update_params,
     format_func=format_day
 )
 
-with st.expander(_("About the #30DaysOfStreamlit")):
-    st.markdown(_(
+with st.expander(("About the #30DaysOfStreamlit")):
+    st.markdown((
         """
     The **#30DaysOfStreamlit** is a coding challenge designed to help you get started in building Streamlit apps.
     
@@ -66,13 +66,13 @@ with st.expander(_("About the #30DaysOfStreamlit")):
     ))
 
 # Sidebar
-st.sidebar.header(_("About"))
-st.sidebar.markdown(_(
+st.sidebar.header(("About"))
+st.sidebar.markdown((
     "[Streamlit](https://streamlit.io) is a Python library that allows the creation of interactive, data-driven web applications in Python."
 ))
 
-st.sidebar.header(_("Resources"))
-st.sidebar.markdown(_(
+st.sidebar.header(("Resources"))
+st.sidebar.markdown((
     """
 - [Streamlit Documentation](https://docs.streamlit.io/)
 - [Cheat sheet](https://docs.streamlit.io/library/cheatsheet)
@@ -81,20 +81,20 @@ st.sidebar.markdown(_(
 """
 ))
 
-st.sidebar.header(_("Deploy"))
-st.sidebar.markdown(_(
+st.sidebar.header(("Deploy"))
+st.sidebar.markdown((
     "You can quickly deploy Streamlit apps using [Streamlit Community Cloud](https://streamlit.io/cloud) in just a few clicks."
 ))
 
 # Display content
 for day in days_list:
     if selected_day == day:
-        st.markdown(_("# 🗓️ Which {day_num}").format(day_num=int(re.search(r'\d+', day).group())))
+        st.markdown(("# 🗓️ Which {day_num}").format(day_num=int(re.search(r'\d+', day).group())))
         with open(f"content/{selected_language}/{day}.md", "r") as f:
             st.markdown(f.read())
         if os.path.isfile(f"content/{selected_language}/figures/{day}.csv"):
             st.markdown("---")
-            st.markdown(_("### Figures"))
+            st.markdown(("### Figures"))
             df = pd.read_csv(f"content/{selected_language}/figures/{day}.csv", engine="python")
             for i in range(len(df)):
                 st.image(f"content/{selected_language}/images/{df.img[i]}")
