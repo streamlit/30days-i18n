@@ -29,7 +29,7 @@ So erstellt man eine Streamlit App mithilfe einer Komponent:
 ```python
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+import ydata_profiling
 from streamlit_pandas_profiling import st_profile_report
 
 st.header('`streamlit_pandas_profiling`')
@@ -45,7 +45,7 @@ Der erste Schritt für das Erstellen einer Streamlit App ist es, die `streamlit`
 ```python
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+import ydata_profiling
 from streamlit_pandas_profiling import st_profile_report
 ```
 
