@@ -32,7 +32,7 @@ pip install streamlit_pandas_profiling
 ```python
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+import ydata_profiling
 from streamlit_pandas_profiling import st_profile_report
 
 st.header('`streamlit_pandas_profiling`')
@@ -50,7 +50,7 @@ Streamlit ऐप बनाते समय सबसे पहली बात �
 ```python
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+import ydata_profiling
 from streamlit_pandas_profiling import st_profile_report
 ```
 
