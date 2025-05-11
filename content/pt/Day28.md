@@ -31,11 +31,9 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
-@st.experimental_memo
 def load_data():
     return shap.datasets.adult()
 
-@st.experimental_memo
 def load_model(X, y):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=7)
     d_train = xgboost.DMatrix(X_train, label=y_train)
@@ -94,7 +92,7 @@ with st.expander('Gráfico Force'):
 ```
 
 ## Explicação linha por linha
-A primeira coisa a fazer quando estiver criando uma aplicação Strealit é importar a biblioteca `streamlit` como `st`:
+A primeira coisa a fazer quando estiver criando uma aplicação Streamlit é importar a biblioteca `streamlit` como `st`:
 ```python
 import streamlit as st
 from streamlit_shap import st_shap
