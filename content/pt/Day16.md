@@ -1,6 +1,6 @@
 # Customizando o tema das aplicações Streamlit
 
-Nós podemos cuistomizar o tema ajustando os parâmetros no arquivo de configuração chamado `config.toml`, que fica dentro da pasta `.streamlit`, na raiz da aplicação.
+Nós podemos customizar o tema ajustando os parâmetros no arquivo de configuração chamado `config.toml`, que fica dentro da pasta `.streamlit`, na raiz da aplicação.
 
 ## O que estamos construindo?
 
@@ -43,7 +43,7 @@ font="monospace"
 ```
 
 ## Explicação linha por linha
-A primeira coisa a fazer quando estiver criando uma aplicação Strealit é importar a biblioteca `streamlit` como `st`:
+A primeira coisa a fazer quando estiver criando uma aplicação Streamlit é importar a biblioteca `streamlit` como `st`:
 ```python
 import streamlit as st
 ```
@@ -76,7 +76,7 @@ st.write('O número selecionado no controle deslizante é:', number)
 Vamos agora observar as cores customizadas que nós utilizamos nessa aplicação, elas estão no arquivo `.streamlit/config.toml`:
 - `primaryColor="#F39C12"` - Configura a cor primária para laranja. Observe a cor do controle deslizante.
 - `backgroundColor="#2E86C1"` - Configura a cor do plano de fundo para azul. Observe a cor azul no painel principal.
-- `secondaryBackgroundColor="#AED6F1"` - Configura a cor secundária de planop de fundo para cinza claro. Observe a cor da barra lateral e da caixa de texto com código no painel principal.
+- `secondaryBackgroundColor="#AED6F1"` - Configura a cor secundária de plano de fundo para cinza claro. Observe a cor da barra lateral e da caixa de texto com código no painel principal.
 - `textColor="#FFFFFF"` - Configura a cor de texto para branca.
 - `font="monospace"` - Configura a fonte para monospace.
 
