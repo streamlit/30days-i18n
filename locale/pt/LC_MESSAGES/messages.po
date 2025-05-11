@@ -49,7 +49,7 @@ msgid ""
 "creation of interactive, data-driven web applications in Python."
 msgstr ""
 "[Streamlit](https://streamlit.io) é uma biblioteca Python que permite a "
-"criação de aplicações interativasis, baseadas em dados em Python."
+"criação de aplicações interativas, baseadas em dados em Python."
 
 #: streamlit_app.py:74
 msgid "Resources"
