@@ -71,7 +71,7 @@ st.info(b1-b0)
 ```
 
 ## Explicação linha por linha
-A primeira coisa a fazer quando estiver criando uma aplicação Strealit é importar a biblioteca `streamlit` como `st` assim com as outras bibliotecas utilizadas na aplicação:
+A primeira coisa a fazer quando estiver criando uma aplicação Streamlit é importar a biblioteca `streamlit` como `st` assim com as outras bibliotecas utilizadas na aplicação:
 ```python
 import streamlit as st
 import numpy as np
