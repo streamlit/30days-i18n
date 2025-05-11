@@ -4,7 +4,7 @@
 
 Normalmente, quando um usuário interage com um componente a aplicação Streamlit é executada novamente.
 
-Um formulário é um container que agrupa visualmente outros elementos e componentes e, também, contém um botão Enviar. Aqui, um usuário pode interagir com um ou mais widgets quantas vezes quiser sem causar uma reexecução. Por fim, quando o botão Enviar do formulário é clicado, todos os valores dos componentes, que estão dentro do formulári,o serão enviados para o Streamlit de uma vez.
+Um formulário é um container que agrupa visualmente outros elementos e componentes e, também, contém um botão Enviar. Aqui, um usuário pode interagir com um ou mais widgets quantas vezes quiser sem causar uma reexecução. Por fim, quando o botão Enviar do formulário é clicado, todos os valores dos componentes, que estão dentro do formulário serão enviados para o Streamlit de uma vez.
 
 Para adicionar elementos a um formulário, você pode usar a notação `with` (preferível) ou pode usá-lo como um objeto, apenas chamando métodos diretamente no formulário (primeiro atribuindo a uma variável e posteriormente aplicando métodos Streamlit). Veja na aplicação de exemplo.
 
@@ -70,7 +70,7 @@ st.write('Valor escolhido: ', selected_val)
 ```
 
 ## Explicação linha por linha
-A primeira coisa a fazer quando estiver criando uma aplicação Strealit é importar a biblioteca `streamlit` como `st`:
+A primeira coisa a fazer quando estiver criando uma aplicação Streamlit é importar a biblioteca `streamlit` como `st`:
 ```python
 import streamlit as st
 ```
