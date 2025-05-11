@@ -1,6 +1,6 @@
-# st.experimental_get_query_params
+# st.query_params
 
-`st.experimental_get_query_params` recupera parâmetros da consulta(query paramaters) diretamente da URL do navegador.
+`st.query_params` recupera parâmetros da consulta(query paramaters) diretamente da URL do navegador.
 
 ## Aplicação de demonstração
 
@@ -13,14 +13,14 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/?firstname=Jack&surname=Beanstalk)
 
 ## Código
-Veha como usar o  `st.experimental_get_query_params`:
+Veha como usar o  `st.query_params`:
 ```python
 import streamlit as st
 
-st.title('st.experimental_get_query_params')
+st.title('st.query_params')
 
 with st.expander('Sobre esta aplicação'):
-  st.write("`st.experimental_get_query_params` recupera parâmetros da consulta(query paramaters) diretamente da URL do navegador.")
+  st.write("`st.query_params` recupera parâmetros da consulta(query paramaters) diretamente da URL do navegador.")
 
 # 1. Instruções
 st.header('1. Instruções')
@@ -34,21 +34,21 @@ então ficará assim
 
 
 # 2. Conteúdos do st.experimental_get_query_params
-st.header('2. Conteúdos do st.experimental_get_query_params')
-st.write(st.experimental_get_query_params())
+st.header('2. Conteúdos do st.query_params')
+st.write(st.query_params)
 
 
 # 3. Recuperando e exibindo informações da URL
 st.header('3. Recuperando e exibindo informações da URL')
 
-firstname = st.experimental_get_query_params()['firstname'][0]
-surname = st.experimental_get_query_params()['surname'][0]
+firstname = st.query_params['firstname'][0]
+surname = st.query_params['surname'][0]
 
 st.write(f'Olá **{firstname} {surname}**, tudo bem?')
 ```
 
 ## Explicação linha por linha
-A primeira coisa a fazer quando estiver criando uma aplicação Strealit é importar a biblioteca `streamlit` como `st`:
+A primeira coisa a fazer quando estiver criando uma aplicação Streamlit é importar a biblioteca `streamlit` como `st`:
 ```python
 import streamlit as st
 ```
@@ -89,11 +89,11 @@ Finalmente, vamos selecionar e exibir as informações dos parâmetros de consul
 # 3. Recuperando e exibindo informações da URL
 st.header('3. Recuperando e exibindo informações da URL')
 
-firstname = st.experimental_get_query_params()['firstname'][0]
-surname = st.experimental_get_query_params()['surname'][0]
+firstname = st.query_params['firstname'][0]
+surname = st.query_params['surname'][0]
 
 st.write(f'Olá **{firstname} {surname}**, tudo bem?')
 ```
 
 ## Leitura complementar
-- [`st.experimental_get_query_params`](https://docs.streamlit.io/library/api-reference/utilities/st.experimental_get_query_params)
+- [`st.query_params`](https://docs.streamlit.io/develop/api-reference/caching-and-state/st.query_params)
