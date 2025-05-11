@@ -1,6 +1,6 @@
 # st.progress
 
-`st.progress` Exite uma barra de progresso, que é atualizada  graficamente a medida que iteração progride.
+`st.progress` Exibe uma barra de progresso, que é atualizada  graficamente a medida que iteração progride.
 
 ## Aplicação de demonstração
 
@@ -27,7 +27,7 @@ st.balloons()
 ```
 
 ## Explicação linha por linha
-A primeira coisa a fazer quando estiver criando uma aplicação Strealit é importar a biblioteca `streamlit` como `st` junto com a biblioteca `time`:
+A primeira coisa a fazer quando estiver criando uma aplicação Streamlit é importar a biblioteca `streamlit` como `st` junto com a biblioteca `time`:
 ```python
 import streamlit as st
 import time
@@ -38,7 +38,7 @@ Na sequência, vamos adicionar um texto de cabeçalho:
 st.title('st.progress')
 ```
 
-Uma **caixa Sobre esta aplicação** é criada usando `st.expander` e a descrição é exbida via `st.write`:
+Uma **caixa Sobre esta aplicação** é criada usando `st.expander` e a descrição é exibida via `st.write`:
 ```python
 with st.expander('Sobre esta aplicação'):
      st.write('Agora você pode exibir o progresso od seus calculosthe progress of your e, uma aplicação Streamlit com o comando `st.progress`.')
