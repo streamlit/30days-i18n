@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "shopping_app/app_final.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    { "src": "/manifest.json", "dest": "/shopping_app/manifest.json" },
+    { "src": "/service_worker.js", "dest": "/shopping_app/service_worker.js" },
+    { "src": "/icons/(.*)", "dest": "/shopping_app/icons/$1" },
+    { "src": "/(.*)", "dest": "shopping_app/app_final.py" }
+  ]
+}

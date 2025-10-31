@@ -1,0 +1,78 @@
+═══════════════════════════════════════════════════════════════
+🚀 INÍCIO RÁPIDO - 3 COMANDOS PARA VER O APP FUNCIONANDO
+═══════════════════════════════════════════════════════════════
+
+SE VOCÊ TEM PYTHON JÁ INSTALADO, COLE ESTES 3 COMANDOS:
+
+─────────────────────────────────────────────────────────────
+
+COMANDO 1: Navegar até a pasta
+──────────────────────────────
+
+Windows:
+    cd C:\Users\SeuNome\30days-i18n
+
+Mac/Linux:
+    cd /Users/SeuNome/30days-i18n
+
+(Substitua "SeuNome" pelo caminho real!)
+
+─────────────────────────────────────────────────────────────
+
+COMANDO 2: Instalar bibliotecas
+────────────────────────────────
+
+Windows:
+    pip install streamlit pandas plotly pillow
+
+Mac/Linux:
+    pip3 install streamlit pandas plotly pillow
+
+─────────────────────────────────────────────────────────────
+
+COMANDO 3: Executar o app
+──────────────────────────
+
+Windows:
+    streamlit run shopping_app/app.py
+
+Mac/Linux:
+    streamlit run shopping_app/app.py
+
+─────────────────────────────────────────────────────────────
+
+PRONTO! O navegador abrirá automaticamente em:
+http://localhost:8501
+
+═══════════════════════════════════════════════════════════════
+
+NÃO TEM PYTHON? BAIXE AQUI:
+https://www.python.org/downloads/
+
+⚠️ IMPORTANTE: Ao instalar, marque "Add Python to PATH"
+
+═══════════════════════════════════════════════════════════════
+
+ACESSO ONLINE (SEM INSTALAR NADA):
+
+Opção mais fácil: Streamlit Cloud (grátis)
+
+1. Acesse: https://share.streamlit.io
+2. Faça login com Google/GitHub
+3. Clique em "New app"
+4. Configure:
+   - Repository: MariSaliba/30days-i18n
+   - Branch: claude/elderly-shopping-control-app-011CUdJUrW7qVX3Xdok9XCx1
+   - Main file: shopping_app/app.py
+5. Clique "Deploy"
+6. Aguarde 2-5 minutos
+7. Terá uma URL pública para compartilhar!
+
+═══════════════════════════════════════════════════════════════
+
+PRECISA DE MAIS DETALHES?
+
+Veja o arquivo: PASSO_A_PASSO.md
+(Está na mesma pasta, com instruções super detalhadas)
+
+═══════════════════════════════════════════════════════════════

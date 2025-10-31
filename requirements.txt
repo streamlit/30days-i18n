@@ -1,4 +1,9 @@
-./streamlit-1.21.0-py2.py3-none-any.whl
+streamlit==1.38.0
+pandas==2.2.2
+python-dateutil==2.9.0.post0
+requests==2.32.3
+plotly>=5.0.0
+Pillow>=9.0.0
 langcodes==3.3.0
 language-data==1.1
 numpy==1.26.4
