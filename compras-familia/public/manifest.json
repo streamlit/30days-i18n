@@ -1,0 +1,21 @@
+{
+  "name": "Compras da Família",
+  "short_name": "Compras",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f3ed",
+  "theme_color": "#73918a",
+  "description": "App para família e cuidadoras gerenciarem compras, despesas e divisão entre irmãos.",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

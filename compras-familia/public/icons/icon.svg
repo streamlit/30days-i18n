@@ -1,0 +1,25 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo verde -->
+  <rect width="512" height="512" fill="#6f8f87" rx="80"/>
+
+  <!-- Carrinho de compras (ícone) -->
+  <g transform="translate(128, 100)">
+    <!-- Base do carrinho -->
+    <rect x="40" y="60" width="200" height="160" fill="none" stroke="white" stroke-width="16" rx="20"/>
+
+    <!-- Alça do carrinho -->
+    <path d="M 40 60 L 20 20 L 0 20" fill="none" stroke="white" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- Rodas -->
+    <circle cx="80" cy="260" r="20" fill="white"/>
+    <circle cx="200" cy="260" r="20" fill="white"/>
+
+    <!-- Linhas decorativas -->
+    <line x1="80" y1="80" x2="80" y2="200" stroke="white" stroke-width="12" stroke-linecap="round"/>
+    <line x1="140" y1="80" x2="140" y2="200" stroke="white" stroke-width="12" stroke-linecap="round"/>
+    <line x1="200" y1="80" x2="200" y2="200" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- Texto CF (Compras Família) -->
+  <text x="256" y="420" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="white" text-anchor="middle">CF</text>
+</svg>

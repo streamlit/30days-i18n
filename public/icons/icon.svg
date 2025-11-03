@@ -1,0 +1,25 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo verde acolhedor -->
+  <rect width="512" height="512" fill="#6f8f87" rx="100"/>
+
+  <!-- Carrinho de compras -->
+  <g transform="translate(128, 140)">
+    <!-- Cesta do carrinho -->
+    <path d="M30 60 L50 200 L210 200 L230 60 Z" fill="#f7f3ed" stroke="#ffffff" stroke-width="8"/>
+
+    <!-- Alça do carrinho -->
+    <path d="M40 60 L20 20 L0 20" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- Barra superior -->
+    <rect x="20" y="50" width="220" height="12" fill="#ffffff" rx="6"/>
+
+    <!-- Rodas -->
+    <circle cx="80" cy="240" r="20" fill="#ffffff"/>
+    <circle cx="180" cy="240" r="20" fill="#ffffff"/>
+
+    <!-- Coração decorativo -->
+    <g transform="translate(90, 110)">
+      <path d="M40 20 C40 10 30 5 22.5 5 C15 5 10 10 10 17.5 C10 25 15 30 40 50 C65 30 70 25 70 17.5 C70 10 65 5 57.5 5 C50 5 40 10 40 20 Z" fill="#f4d4a8"/>
+    </g>
+  </g>
+</svg>
